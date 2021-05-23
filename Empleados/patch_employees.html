@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/patch_employees.js"></script>
+    <title>Actualizar Empleados</title>
+</head>
+<body>
+    <table width="1300" height="288" border="0" align="center">
+        <thead>
+            <tr>
+                <td width="300" style="text-align: center"><button id="employees">Regresar a Empleados</button></td>
+                <td width="964" style="text-align: center"><h1>Actualizar Empleado</h1></td>
+              <td width="300" style="text-align: center"><button id="logout">Cerrar Sesion</button></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center">
+                    <h2>ID del Empleado</h2>
+                    <h3>ID: <input type="text" id="id"></h3>
+                </td>
+                <td style="text-align: center"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center">
+                    <h2>Rellena los datos que quieras modificar</h2>
+                    <h3>Nombre: <input type="text" id="name"></h3>
+                    <h3>Apellido: <input type="text" id="last_name"></h3>
+                    <h3>Telefono: <input type="text" id="telephone"></h3>
+                    <h3>E-mail: <input type="text" id="mail"></h3>
+                    <h3>Direccion: <input type="text" id="address"></h3>
+                    <button id="patch">Actualizar</button>
+                </td>
+                <td style="text-align: center"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
